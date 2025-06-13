@@ -1,0 +1,27 @@
+#mw-panel,
+#p-cactions,
+#p-tb {
+  display: none !important;
+}
+
+.toggle-menu-button {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 4px 8px;
+  background: #f8f9fa;
+  border: 1px solid #a2a9b1;
+  border-radius: 2px;
+  font-size: 0.9em;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.toggle-menu-button:hover {
+  background-color: #e1e1e1;
+}
+
+body.show-side-menu #mw-panel,
+body.show-side-menu #p-cactions,
+body.show-side-menu #p-tb {
+  display: block !important;
+}
